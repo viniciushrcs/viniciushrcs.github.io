@@ -6,15 +6,11 @@ body {
 }
 
 h1 {
-    display: inline;
-    border: 2px solid #5c80bc;
-    padding: 10px;
-    width: 200px;
-    margin: 400px;
-    background-color: #009DDC;
     text-align: center;
     color: #fff;
     font-size: 3em;
+    padding: 0px 0px;
+    margin: 5px 1px 1px 1px; 
 }
 
 h2 {
@@ -32,13 +28,65 @@ a {
     line-height: 1,5em;
 }
 
-#fotoVin {
-    border-radius: 8px;
-    border:2px solid black
-    
+.title {
+    background-color: #009DDC;
+    border: 3px solid #5c80bc;
+    border-radius: 20px;
+    margin: auto;
+    padding: 1px;
+    width: 60%;
+    max-width: 500px;
+    overflow: hidden;
+    height: 50px;
 }
 
 .index {
     text-align: left;
     list-style-position: inside;
+    float:left;
 }
+
+.descricao {
+    margin-top: 16%;
+    margin-right: 2%;
+    max-width: 1000px;
+    clear: both;
+
+}
+
+.habilidades {
+    float: auto;
+    clear: both;
+    margin-top: 100px;
+    max-width: 50%;
+    width: 50%;
+}
+
+#fotoVin {
+    margin-right: 25px;
+    border-radius: 20px;
+    border:2px solid black;
+    padding: 0;
+    height: 360px;
+    width: 200px;
+    max-width: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#legenda {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10;
+    margin-top: auto;
+    padding: 10px;
+    border: 10px;
+    text-align: center;
+}
+
+#bD {
+    text-align: center;
+}
+
+
