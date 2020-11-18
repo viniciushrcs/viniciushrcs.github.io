@@ -1,92 +1,198 @@
-body {
-    background-color:#e2e8f3;
-    font-family: monospace;
-    line-height: 35px;
-    font-size: 18px
-}
 
-h1 {
-    text-align: center;
-    color: #fff;
-    font-size: 3em;
-    padding: 0px 0px;
-    margin: 5px 1px 1px 1px; 
-}
-
-h2 {
-    color: #00587A;
-    font-size: 1,5em;
-}
-
-p {
-    font-weight: 400;
-    text-align: justify;
-    line-height: 1,5;
-}
-
-a {
-    line-height: 1,5em;
-}
-
-.title {
-    background-color: #009DDC;
-    border: 3px solid #5c80bc;
-    border-radius: 20px;
-    margin: auto;
-    padding: 1px;
-    width: 70%;
-    max-width: 500px;
-    overflow: hidden;
-
-}
-
-.index {
-    text-align: left;
-    list-style-position: inside;
-    float:left;
-}
-
-.descricao {
-    margin-top: 16%;
-    margin-right: 2%;
-    max-width: 1000px;
-    clear: both;
-
-}
-
-.habilidades {
-    float: auto;
-    clear: both;
-    margin-top: 100px;
-    max-width: 50%;
-    width: 50%;
-}
-
-#fotoVin {
-    margin-right: 25px;
-    border-radius: 20px;
-    border:2px solid black;
-    padding: 0;
-    height: 360px;
-    width: 200px;
-    max-width: 300px;
-    overflow: hidden;
+#apresentacao{
     position: relative;
-    float: left;
+    max-width: 70%;
+    text-align: justify;
+    font-size: 1,5em;
+    margin-top: 40px;
+    line-height: 20px;
 }
-
-#legenda {
-    font-size: 16px;
-    line-height: 26px;
-    margin: 10;
-    margin-top: auto;
+#artigo-aprendizagem, #texto-curiosidade, #curiosidade{
+    margin: 10px;
+    margin-top: 10px;
     padding: 10px;
-    border: 10px;
-    text-align: center;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    width: 60%;
+}
+#artigo-aprendizagem{
+    display: inline-block;
+}
+#artigo-e-curiosidade{ 
+    overflow: auto;
+    width: 100%;
+    margin-right: 10px;
+    display: inline-block;
+}
+body{
+    background-color: rgb(253, 251, 251);
+    font-size: 16px;
+    font-family: inherit, sans-serif;
+}
+#cabecalho{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px grey;
+    background-color: #3b5998;
+}
+#conteudo-principal{
+    height: auto;
+    width: 80%;
+}
+#curiosidade, #licoes_a_aprender{
+    width: 25%;
+    position: relative;
+    height: auto;
+    float: right;
+}
+#curriculo-trybe{
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+    overflow: hidden;
+    text-align: right;
+    color: #1877f2;
+    font-size: 15px;
+    font-weight: 700;
+}
+#quem-sou-eu{
+    position:relative;
+    margin-top:180px;
+    z-index:1;
+    clear:both;
+    max-width:60%;
+    font-size:15px;
+}
+#quem-sou-eu-titulo, #titulo-aprendizagem, #titulo-curiosidade, #titulo-licoes-aprendidas, #titulo-licoes-a-aprender {
+    text-align:center;
+    background-color:#42b72a;
+    padding:0 16px;
+    line-height:48px;
+    border:none;
+    border-radius:6px;
+    margin-left:20px;
+    width:fit-content;
+    color:white;
+}
+h1{
+    font-size:2em;
+}
+h2{
+    font-size:1,5em;
+}
+#menu-navegacao li {
+    float:left;
+    display:inline;
+}
+li a{
+    display:block;
+    text-align:center;
+    padding:5px 20px;
+}
+#licoes{
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    border:1px dashed black;
+    padding:0px 10px;
+    background-color:#e9eeec;
+    margin-bottom:100px;
 }
 
-#bD {
-    text-align: center;
+#licoes_a_aprender {
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 100%;
+}
+#licoes_aprendidas{
+    float: left;
+    margin-top: 20px;
+}
+#licoes_aprendidas, #licoes_a_aprender{
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing:0.04rem;
+}
+#div-licoes-aprendidas{
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
 }
 
+#div-licoes-a-aprender{
+    float: right;
+    width: 40%;
+    padding: 20px 10px;
+}
+#menu-navegacao{
+    justify-content:space-between;
+    display:inline;
+    list-style-type:none;
+    overflow:hidden;
+    margin:0 auto;
+    width:960px;
+    line-height:24px;
+    vertical-align:middle;
+    padding:0px;
+    text-align:-webkit-match-parent;
+    font-weight:bold;
+    color:white;
+}
+#minha_foto{
+    padding:10px;
+    float:left;
+    width:150px;
+    border-radius:50px;  
+    position:relative;
+}
+#texto-aprendizagem{
+    border:1px dashed black;
+    padding:0px 10px;
+    position:relative;
+    float:left;
+    background-color:#e9eeec;
+    margin-bottom:100px;
+}
+#texto-curiosidade{
+    text-align:left;
+    border:1px dashed black;
+    padding:0px 10px;
+    position:relative;
+    background-color:#e9eeec;
+    margin-bottom:100px;
+}
+#titulo{
+    font-weight:700;
+    letter-spacing:0.09rem;
+    padding:10px;
+    color:white;
+}
+#titulo-aprendizagem, #titulo-curiosidade, #titulo-licoes-aprendidas, #titulo-licoes-a-aprender {
+    margin:0;
+}
 
+#rodape{
+    color: #605e5e;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+    
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
